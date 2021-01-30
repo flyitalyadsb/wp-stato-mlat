@@ -9,9 +9,7 @@ function render_peer_table($sync_data){
 
 function get_peer_table_header()
 {
-    $style = get_table_style();
     return <<<HTML
-        {$style}
         <table class="sync-table">
             <thead>
                 <tr>
@@ -21,17 +19,6 @@ function get_peer_table_header()
                 </tr>
             </thead>
             <tbody>    
-HTML;
-}
-
-function get_table_style() {
-    return <<<HTML
-        <style>
-            .sync-table thead {
-            font-weight: bold;
-                background-color: #fcaf3b;
-            }
-        </style>
 HTML;
 }
 
