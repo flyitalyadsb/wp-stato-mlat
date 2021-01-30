@@ -30,8 +30,11 @@ function load_sync_data()
 function get_table_style() {
     return <<<HTML
         <style>
+            div.table-container {
+                overflow-x: auto;
+            }
             .sync-table thead {
-            font-weight: bold;
+                font-weight: bold;
                 background-color: #fcaf3b;
             }
         </style>

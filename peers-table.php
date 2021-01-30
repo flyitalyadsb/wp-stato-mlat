@@ -10,15 +10,16 @@ function render_peer_table($sync_data){
 function get_peer_table_header()
 {
     return <<<HTML
-        <table class="sync-table">
-            <thead>
-                <tr>
-                    <td>Node ID</td>
-                    <td># Bad syncs</td>
-                    <td># Peers</td>
-                </tr>
-            </thead>
-            <tbody>    
+        <div class="table-container">
+            <table class="sync-table">
+                <thead>
+                    <tr>
+                        <td>Node ID</td>
+                        <td># Bad syncs</td>
+                        <td># Peers</td>
+                    </tr>
+                </thead>
+                <tbody>
 HTML;
 }
 
@@ -42,8 +43,9 @@ HTML;
 function get_close_peer_table()
 {
     return <<<HTML
-            </tbody>
-        </table>
+                </tbody>
+            </table>
+        </div>
 HTML;
 }
 
