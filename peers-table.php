@@ -14,8 +14,8 @@ function get_peer_table_header()
             <table class="sync-table">
                 <thead>
                     <tr>
-                        <td>Node ID</td>
-                        <td># Bad syncs</td>
+                        <td>Utente</td>
+                        <td># Sincronizzazioni errate</td>
                         <td># Peers</td>
                     </tr>
                 </thead>
