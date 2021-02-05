@@ -21,9 +21,9 @@ function get_connected_peer_table_header () {
                 <thead>
                     <tr>
                         <td>Node ID</td>
-                        <td>Sync count</td>
-                        <td>Sync error</td>
-                        <td>PPM offset</td>
+                        <td>Numero di Sincronizzazioni</td>
+                        <td>Errore di Sincronizzazione</td>
+                        <td>Offset PPM</td>
                         <td>Timeout</td>
                     </tr>
                 </thead>
